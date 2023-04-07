@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.menu{
+    display: none;
+}
+.list{
+    position: fixed; 
+    top: 0; 
+    bottom: 0; 
+    right: 0; 
+    left: 0;
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .nav-lnk{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}

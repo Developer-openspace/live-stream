@@ -1,0 +1,67 @@
+{
+  "name":"Openspace",
+  "short_name":"Openspace",
+  "description":"Openspace is an app that connects developers",
+  "start_url":"/index.html",
+  "id":"/index.html",
+  "background_color":"#FFE9D2",
+  "theme_color":"#FFE1C4",
+  "orientation":"portrait-primary",
+  "display":"standalone",
+  "icons":[
+    {
+    "src":"/img/icons/code-72x72.png",
+    "type":"image/png",
+    "sizes":"72x72",
+    "purpose": "maskable"
+    },
+    {
+      "src":"/img/icons/code-96x96.jpg",
+      "type":"image/jpg",
+      "sizes":"96x96",
+      "purpose": "any"
+      },
+    {
+     "src":"/img/icons/code-128x128.jpg",
+     "type":"image/jpg",
+     "sizes":"128x128",
+     "purpose": "any"
+     },
+   {
+    "src":"/img/icons/code-144x144.png",
+    "type":"image/png",
+    "sizes":"144x144",
+    "purpose": "any"
+     },
+    {
+    "src":"/img/icons/code-152x152.jpg",
+    "type":"image/jpg",
+    "sizes":"152x152",
+    "purpose": "maskable"
+     },
+    {
+    "src":"/img/icons/code-192x192.jpg",
+    "type":"image/jpg",
+    "sizes":"192x192",
+    "purpose": "maskable"
+     },
+     {
+      "src":"/img/icons/code-256x256.jpg",
+      "type":"image/jpg",
+      "sizes":"256x256",
+      "purpose": "maskable"
+       },
+    {
+    "src":"/img/icons/code-384x384.jpg",
+    "type":"image/jpg",
+    "sizes":"384x384",
+    "purpose": "maskable"
+     },
+    {
+     "src":"/img/icons/code-512x512.png",
+     "type":"image/png",
+     "sizes":"512x512",
+     "purpose": "any"
+     }
+  ]
+  }
