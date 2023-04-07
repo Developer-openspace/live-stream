@@ -4,8 +4,8 @@
   "description": "Live video streaming server serving stream_client",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon",
+    "start": "tsc",
+    "dev": "npx nodemon",
     "build": "rimraf ./build && tsc"
   },
   "repository": {
