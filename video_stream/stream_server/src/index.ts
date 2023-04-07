@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:false}))
 //routes
 app.get('/',async(req,res):Promise<void>=>{
     try {
-        res.status(200).sendFile(__dirname+"/index.html")
+        res.status(200).sendFile(__dirname+"/views/index.html")
     } catch (error:any) {
         res.status(500).send({error:error.message})
     }
