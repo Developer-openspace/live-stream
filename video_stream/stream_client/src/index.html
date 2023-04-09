@@ -45,7 +45,7 @@
    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
 </head>
 <body>
-  <main class="hero bg-orange-400 sm:h-[80vh] max-sm:h-[50vh] text-white">
+  <main class="hero bg-[url(./img/comp2.jpg)] bg-center bg-cover  sm:h-[80vh] max-sm:h-[50vh] text-white">
     <nav class="w-[100%] p-5 flex justify-between text-white">
       <div class="brand flex text-xl max-sm:text-base font-semibold">
         <a href="./index.html">Developer Openspace</a>
@@ -165,33 +165,11 @@
       content.innerHTML+=li;
     })
 
-    const hero=document.querySelector(".hero");
-    let images=[
-    `url("./img/comp2.jpg")`,
-    `url("./img/comp.jpg")`,
-    `url("./img/anubis.jpg")`
-    ]
-    
-    setInterval(()=>{
-      hero.style.background=images[0]
-      hero.style.backgroundPosition=`center`
-      hero.style.backgroundSize=`cover`
-      hero.style.transition=`500ms ease-in-out`
-    },3000)
-
-    setInterval(()=>{
-      hero.style.background=images[1]
-      hero.style.backgroundPosition=`center`
-      hero.style.backgroundSize=`cover`
-      hero.style.transition=`500ms ease-in-out`
-    },6000)
-
-    setInterval(()=>{
-      hero.style.background=images[2]
-      hero.style.backgroundPosition=`center`
-      hero.style.backgroundSize=`cover`
-      hero.style.transition=`500ms ease-in-out`
-    },9000)
+    // const hero=document.querySelector(".hero");
+    // hero.style.background=`url("./img/comp.jpg")`
+    // hero.style.backgroundPosition=`center`
+    // hero.style.backgroundSize=`cover`
+    // hero.style.transition=`500ms ease-in-out`
   </script>
   <script src="./index.js" type="module"></script>
   <script src="./sw.js" type="module"></script>

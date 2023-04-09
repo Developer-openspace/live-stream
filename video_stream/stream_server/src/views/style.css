@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+:root{
+    --black:black;
+    --grey:#444;
+    --smoke-white:#f2f2f2;
+}
+body{
+    background-color: var(--grey);
+}
+video{
+    width: 100vw;
+    height: 100vh;
+}

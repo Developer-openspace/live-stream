@@ -9,15 +9,16 @@ const app=express()
 app.use(cors({}))
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
+app.use(express.static(__dirname+"/views"))
 
 //routes
-app.get('/',async(req,res):Promise<void>=>{
-    try {
-        res.status(200).sendFile(__dirname+"/views/index.html")
-    } catch (error:any) {
-        res.status(500).send({error:error.message})
-    }
-})
+// app.get('/',async(req,res):Promise<void>=>{
+//     try {
+//         res.status(200).sendFile(__dirname+"/views/index.html")
+//     } catch (error:any) {
+//         res.status(500).send({error:error.message})
+//     }
+// })
 
 app.get("/video",(req,res)=>{
     try {
